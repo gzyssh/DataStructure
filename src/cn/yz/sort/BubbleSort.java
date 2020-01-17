@@ -14,10 +14,10 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arg={3,9,-1,10,-2};
-        sort(arg);
+        bubbleSort(arg);
         System.out.println(Arrays.toString(arg));
     }
-    public static void sort(int[] arg){
+    public static void bubbleSort(int[] arg){
         int t;
         boolean flag;
         for (int i = 0; i < arg.length-1; i++) {
